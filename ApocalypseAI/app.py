@@ -40,7 +40,7 @@ def initialize_vector_store():
     
     # 3. Embed & Store (USING LOCAL OLLAMA)
     # We use 'nomic-embed-text' because it runs fast on laptops
-    embeddings = OllamaEmbeddings(model="nomic-embed-text")
+    embeddings = OllamaEmbeddings(model="all-minilm")
     vectorstore = FAISS.from_documents(splits, embeddings)
     return vectorstore
 
