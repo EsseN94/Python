@@ -1,0 +1,20 @@
+Challenge
+In the code editor, there are 3 variables, a, b, and c. Print the following:
+
+The negation of a.
+The negation of c.
+The negation of the logical AND of a and b.
+The negation of the logical OR of b and c.
+
+
+a, b, c = False, False, True
+
+print(not a)
+print(not c)
+print (not(a and b))
+print (not(b or c))
+
+True
+False
+True
+False
