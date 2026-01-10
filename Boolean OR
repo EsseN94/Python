@@ -1,0 +1,13 @@
+Challenge
+In the code editor, there are 4 variables, a, b, c, and d. Print the following:
+
+The logic OR of a and b.
+The logic OR of b and c.
+The logic OR of c and d.
+The logic OR of a, b, c, and d.
+
+a, b, c, d = False, False, True, True
+print (a or b)
+print (b or c)
+print (c or d)
+print (a or b or c or d)
